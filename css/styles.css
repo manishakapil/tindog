@@ -149,3 +149,34 @@ h2{
     font-size: calc(130% + 1vw + 1vh) !important;
   }
 }
+                           /* cta section */
+#cta{
+  background-color: #ff4c68;
+  padding-top: 1%;
+  padding-bottom: 0;
+}
+.cta-heading{
+  font-size:  calc(180% + 1vw + 1vh) !important;
+  text-align: center;
+  color: white;
+  margin-top: 4%;
+
+}
+.last-button{
+  font-size: 1rem !important;
+  font-size: "Montserrat";
+  padding: 1% 1% !important;
+}
+.btn1{
+ margin-left: 35% !important;
+ margin-bottom: 100px !important;
+}
+.btn2{
+  margin-bottom: 100px !important;
+
+}
+                      /* footer section */
+#footer{
+  padding: 5% 4%;
+  text-align: center;
+}
