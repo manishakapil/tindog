@@ -17,7 +17,7 @@ h1{
 }
 h3{
   font-family: 'Montserrat-Bold' !important;
-  font-size: 2.5rem;
+  font-size: 2rem !important;
   font-weight: bolder !important;
   padding-top: 1.5rem;
 }
@@ -42,7 +42,7 @@ h3{
 }
 .nav-link{
   /* font-size: 2rem; */
-  font-size:  ;
+  font-size:50%  ;
   font-family: 'Montserrat-Light', sans-serif;
 }
 
@@ -57,7 +57,7 @@ h3{
 .title-image{
   width:50%;
   transform: rotate(25deg);
-  position: absolute;
+  position:absolute;
 }
                            /* FEATURES SECTION*/
 #features{
@@ -74,7 +74,7 @@ h3{
   color:#ff4c68;
 }
 p{
-  font-size: 2rem !important;
+  font-size: 1rem !important;
   font-weight:normal;
   color:grey;
 }
@@ -112,26 +112,33 @@ h2{
   padding-bottom: 5%;
 }
 .press-logo{
-  margin:20px 30px 50px ;
+  height: 5%;
+  width: 15%;
+  margin:10px 20px 40px ;
 }
                 /* pricing section */
 #pricing{
-  padding: 180px;
+  padding: 5% 16%;
   text-align: center;
 }
 h2{
   padding-top: 0;
 }
 .plan{
-  font-size: ;/*a plan for every dogs need*/
+  font-size:2rem;/*a plan for every dogs need*/
   font-weight: bolder;
+  padding-top: 5%;
+
 }
 .pricing-font{
   padding-top: 0 !important;
   font-size:!important;
 }
 .pricing-column{
-  padding: 3% 1.6% !important;
+  padding: 5% 1.6% !important;
+  height: 40%;
+  width: 15;
+  text-align: center;
 }
 @media (max-width :1090px){
   .title-image{
