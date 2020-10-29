@@ -1,0 +1,144 @@
+body{
+  font-style: 'Montserrat', sans-serif;
+}
+#title{
+  background-color: #ff4c68;
+  color: white !important;
+}
+.container-fluid{
+  padding: 3% 10% 6% 18% !important;
+  padding: auto;
+}
+/* main heading */
+h1{
+  font-family: 'Montserrat', sans-serif;
+  /* font-size: 6rem; */
+  line-height: 1.5;
+}
+h3{
+  font-family: 'Montserrat-Bold' !important;
+  font-size: 2.5rem;
+  font-weight: bolder !important;
+  padding-top: 1.5rem;
+}
+.navbar{
+  padding: 0 0 6% !important;
+}
+/* tindog */
+.navbar-brand{
+  font-size:  3rem !important;
+  font-weight: bold;
+  font-family: 'Ubuntu';
+}
+
+/* toggler contact pricing download */
+.navbar-dark{
+  font-size: 2rem !important;
+  margin-right: 16%;
+  margin-bottom: 3%; /*margin below tindog*/
+}
+.nav-item{
+  padding: 0 3px;/*spacing btw contact pricing and download*/
+}
+.nav-link{
+  /* font-size: 2rem; */
+  font-size:  ;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+/* download button */
+.btn{
+  margin: 5% 3% 5% 0 !important;
+  padding: 2.5% 4.5% !important;
+  font-size:  ;
+  padding-right: 3%;
+}
+
+.title-image{
+  width:50%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+                           /* FEATURES SECTION*/
+#features{
+  padding: 7% 15%;
+ background-color: white;
+ position: relative;
+
+}
+.feature-box{
+  text-align: center;
+  padding: 5% !important;
+}
+.feature-box:hover{
+  color:#ff4c68;
+}
+p{
+  font-size: 2rem !important;
+  font-weight:normal;
+  color:grey;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+                               /* Testimonials SECTION*/
+#testimonials{
+  padding-top: 0;
+  padding-bottom: 7%;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+  font-size: ;
+
+}
+.carousel-item{ /*to seperate the button from padding*/
+ padding-left: 15%;
+ padding-right: 15%;
+
+}
+h2{
+  font-size: ;
+  padding-top: 11% !important;
+}
+.testimonial-image{
+  width: 11%;
+  border-radius: 100%;
+  margin:20px;
+}
+                     /* PRESS SECTION */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.press-logo{
+  margin:20px 30px 50px ;
+}
+                /* pricing section */
+#pricing{
+  padding: 180px;
+  text-align: center;
+}
+h2{
+  padding-top: 0;
+}
+.plan{
+  font-size: ;/*a plan for every dogs need*/
+  font-weight: bolder;
+}
+.pricing-font{
+  padding-top: 0 !important;
+  font-size:!important;
+}
+.pricing-column{
+  padding: 3% 1.6% !important;
+}
+@media (max-width :1090px){
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  .font-heading{
+    font-size: calc(130% + 1vw + 1vh) !important;
+  }
+}
